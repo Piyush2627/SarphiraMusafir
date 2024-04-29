@@ -1,0 +1,132 @@
+.image-6-icon,
+.instance-child {
+  position: absolute;
+  border-radius: 24px;
+}
+.instance-child {
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 94px 200px rgba(21, 21, 21, 0.15);
+  width: 644px;
+  height: 360px;
+}
+.image-6-icon {
+  width: 240px;
+  height: 400px;
+  object-fit: cover;
+  bottom: 26px;
+  left: 26px;
+}
+
+.samir-fuddi,
+.treker {
+  margin: 0;
+  position: relative;
+}
+
+.samir-fuddi {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.treker {
+  font-size: 14px;
+  color: gray;
+}
+
+.samir-fuddi-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 2px;
+  position: absolute;
+  left: 292px;
+  bottom: 26px;
+}
+
+.amet-minim-mollit {
+  margin: 0;
+  position: absolute;
+  font-size: 15px;
+  line-height: 22px;
+  display: inline-block;
+  width: 310px;
+  top: 38px;
+  right: 40px;
+}
+
+.cidouble-quotes-l {
+  position: relative;
+  overflow: hidden;
+}
+
+.rectangle-parent {
+  width: 644px;
+  height: 360px;
+  text-align: left;
+  font-size: 32px;
+  color: #fff;
+  position: relative;
+}
+
+.cidouble-quotes-l {
+  height: 80px;
+  width: 80px;
+  top: 200px;
+  left: 412px;
+  opacity: 0.12;
+  position: absolute;
+}
+
+.vector-icon {
+  height: 80px;
+  width: 80px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .instance-child {
+    width: 318px;
+    height: 380px;
+  }
+  .vector-icon {
+    display: none;
+  }
+  .rectangle-parent {
+    width: 350px;
+    height: 380px;
+  }
+  .image-6-icon {
+    width: 166px;
+    height: 235px;
+    object-fit: cover;
+    bottom: 210px;
+    left: 20px;
+  }
+
+  .amet-minim-mollit {
+    margin: 0;
+    position: absolute;
+    font-size: 15px;
+    line-height: 22px;
+    display: inline-block;
+    width: 220px;
+    top: 190px;
+    right: 105px;
+  }
+  .samir-fuddi-parent {
+    left: 150px;
+    bottom: 17px;
+  }
+  .samir-fuddi {
+    font-size: 20px;
+  }
+  .section-headline {
+    margin-bottom: 0px;
+  }
+  .footer {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+}

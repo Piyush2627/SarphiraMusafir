@@ -1,0 +1,203 @@
+.heroimage1 {
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.reviews {
+  display: flex;
+  overflow: auto;
+  column-gap: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50vh;
+  margin: 0 10vw;
+  min-height: 500px;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+  overflow-x: hidden;
+}
+
+.about-hero-section::after {
+  // @extend .paper-ripped !optional;
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  left: 0px;
+  background: url(/src/assets/svg/rip.svg) bottom;
+  background-size: 62rem;
+  bottom: -2rem;
+  z-index: 0;
+  transform: rotateZ(180deg);
+}
+
+.find-the-space-section {
+  position: relative;
+  top: -14rem;
+  height: 20rem;
+}
+
+.section {
+  margin: 2rem 0rem;
+  overflow-x: hidden;
+}
+.productbanner-container {
+  position: relative;
+  width: 100vw;
+  height: 46rem;
+}
+
+.heroheading-lineone-container {
+  color: #fbd885;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.heading-container {
+  margin-top: 12%;
+  margin-left: 12%;
+}
+
+.heroheading-main-heading {
+  color: var(--Wei, #fff);
+  letter-spacing: 0.25rem;
+  font-size: 3.5rem;
+  font-style: normal;
+  max-height: auto;
+  font-weight: 400;
+  width: 700px;
+}
+
+.section-headline {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  /* Your CSS code here */
+  .heroimage1 {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: -130px;
+  }
+}
+
+@keyframes scrolldown {
+  0% {
+    opacity: 0;
+    transform: translate(0, -8px);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 8px);
+  }
+}
+
+/* For tablets */
+@media (min-width: 300px) and (max-width: 768px) {
+  /* Your CSS code here */
+  .heroimage1 {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: -100px;
+  }
+
+  .heroheading-main-heading {
+    font-size: 2.5rem;
+    width: 255px;
+  }
+
+  .heading-container {
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+
+  .scrolldown {
+    margin-left: 40%;
+    margin-top: 60%;
+  }
+  .landing-grid-section1 {
+    margin-top: -20%;
+  }
+  .find-the-space-section {
+    margin-top: 8rem;
+  }
+
+  // .feel-the-experience {
+  //   margin-top: 4rem;
+  // }
+}
+
+/* For desktop computers */
+@media (max-width: 769px) {
+  .feel-the-experience {
+    margin-top: 24rem;
+  }
+}
+
+$animationSpeed: 20s;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 22));
+  }
+}
+
+@media (min-width: 360px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 2));
+    }
+  }
+}
+
+// Styling
+.slider {
+  &::before,
+  &::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    column-gap: 2rem;
+  }
+}

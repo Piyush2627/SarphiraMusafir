@@ -1,0 +1,32 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+@import url(./trip-description/card.scss);
+@import url(./trip-description/overview.scss);
+@import url(./trip-description/Itinerary.scss);
+@import url(./trip-description/importantDetails.scss);
+@import url(./core.scss);
+@import url(./loader.scss);
+@import url(./memories.scss);
+@import url(./Footer.scss);
+@import url(./animated-image.scss);
+
+// PAGE
+
+@import url(./page-styles/AboutPage.scss);
+@import url(./page-styles/EventCategory.scss);
+@import url(./page-styles/LandingPage.scss);
+@import url(./page-styles/SignIn.scss);
+@import url(./page-styles/TrekInfo.scss);
+@import url(./page-styles/TripDetailsForm.scss);
+@import url(./page-styles/upcoming.scss);
+
+// COMPONENTS
+
+@import url(./components/Heroheading.scss);
+@import url(./components/InfoCard.scss);
+@import url(./components/LandingGallery.scss);
+@import url(./components/LandingSelectTrip.scss);
+@import url(./components/MinimalCard.scss);
+@import url(./components/Navgation.scss);
+@import url(./components/Productbanner.scss);
+@import url(./components/ReviewCard.scss);
+@import url(./components/RichTextEditor.scss);

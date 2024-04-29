@@ -1,0 +1,369 @@
+@media (max-width: 767px) {
+  h2 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 479px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+.base-block {
+  background: #091920;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.02);
+  margin: 30px 0;
+  border-radius: 12px;
+}
+@media (min-width: 1024px) {
+  .base-block {
+    margin: 30px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .base-block {
+    font-size: 1.7rem;
+  }
+}
+.base-block-head {
+  position: relative;
+  z-index: 2;
+  padding: 25px 17px;
+}
+@media (min-width: 768px) {
+  .base-block-head {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .base-block-head {
+    padding: 23px 35px;
+  }
+}
+.base-block-head + .base-block-body {
+  padding-top: 0;
+}
+@media (min-width: 768px) {
+  .base-block-head + .base-block-body {
+    padding-top: 0;
+  }
+}
+.base-block-head:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 3px;
+  background-color: #fbd885;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .base-block-head:before {
+    top: 23px;
+  }
+}
+.base-block-body {
+  padding: 17px;
+  padding-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .base-block-body {
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .base-block-body {
+    padding: 30px;
+    padding-bottom: 40px;
+  }
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 22px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+.base-block {
+  display: block;
+  background-color: #091920;
+  padding: 25px 0;
+  font-size: inherit;
+}
+@media (min-width: 768px) {
+  .base-block {
+    margin-bottom: 3rem;
+  }
+}
+.base-block .base-block-head {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 10px;
+  border-left: 4px solid #fbd885;
+  padding: 0 0 0 12px;
+  z-index: 0;
+}
+@media (min-width: 1024px) {
+  .base-block .base-block-head {
+    padding: 0 0 0 23px;
+  }
+}
+.base-block .base-block-head:before {
+  content: none;
+}
+.base-block .base-block-body {
+  padding-bottom: 0;
+}
+@media (min-width: 1024px) {
+  .base-block .base-block-body {
+    padding: 10px 30px;
+  }
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+
+/*! CSS Used from: Embedded */
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+/*! CSS Used from: Embedded */
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+/*! CSS Used from: Embedded */
+@media (max-width: 767px) {
+  h2 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 479px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.base-block {
+  background: #091920;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.02);
+  margin: 30px 0;
+}
+@media (min-width: 1024px) {
+  .base-block {
+    margin: 30px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .base-block {
+    font-size: 1.7rem;
+  }
+}
+.base-block-head {
+  position: relative;
+  z-index: 2;
+  padding: 25px 17px;
+}
+@media (min-width: 768px) {
+  .base-block-head {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .base-block-head {
+    padding: 23px 35px;
+  }
+}
+.base-block-head + .base-block-body {
+  padding-top: 0;
+}
+@media (min-width: 768px) {
+  .base-block-head + .base-block-body {
+    padding-top: 0;
+  }
+}
+.base-block-head:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 3px;
+  background-color: #fbd885;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .base-block-head:before {
+    top: 23px;
+  }
+}
+.base-block-body {
+  padding: 17px;
+  padding-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .base-block-body {
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .base-block-body {
+    padding: 30px;
+    padding-bottom: 40px;
+  }
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 22px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container {
+    margin: 0 10px;
+  }
+}
+
+.base-block {
+  display: block;
+  background-color: #091920;
+  padding: 25px 0;
+  font-size: inherit;
+}
+@media (min-width: 768px) {
+  .base-block {
+    margin-bottom: 3rem;
+  }
+}
+.base-block .base-block-head {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 10px;
+  border-left: 4px solid #fbd885;
+  padding: 0 0 0 12px;
+  z-index: 0;
+}
+@media (min-width: 1024px) {
+  .base-block .base-block-head {
+    padding: 0 0 0 23px;
+  }
+}
+.base-block .base-block-head:before {
+  content: none;
+}
+.base-block .base-block-body {
+  padding-bottom: 0;
+}
+@media (min-width: 1024px) {
+  .base-block .base-block-body {
+    padding: 40px 30px;
+  }
+}
+.base-block-head {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .base-block {
+    padding: 2rem 0;
+  }
+}

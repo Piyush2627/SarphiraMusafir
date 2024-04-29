@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+.background {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background: url("https://images.unsplash.com/photo-1502784444187-359ac186c5bb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ")
+    center center;
+  filter: blur(5px);
+}
+
+$color_1: inherit;
+$color_2: #666868;
+$color_3: white;
+$color_4: rgba(0, 0, 0, 0.6);
+$color_5: #999;
+$color_6: #0097e6;
+$color_7: #44bd32;
+$font-family_1: "Font Awesome 5 Brands";
+$font-family_2: "Font Awesome 5 Free";
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot);
+  src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff2)
+      format("woff2"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.woff)
+      format("woff"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.ttf)
+      format("truetype"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-brands-400.svg#fontawesome)
+      format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.eot);
+  src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.woff2)
+      format("woff2"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.woff)
+      format("woff"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.ttf)
+      format("truetype"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-regular-400.svg#fontawesome)
+      format("svg");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.eot);
+  src: url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.woff2)
+      format("woff2"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.woff)
+      format("woff"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.ttf)
+      format("truetype"),
+    url(https://ka-f.fontawesome.com/releases/v5.15.4/webfonts/free-fa-solid-900.svg#fontawesome)
+      format("svg");
+}
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: $font-family_1;
+  font-weight: 400;
+}
+.far {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 400;
+  font-family: $font-family_2;
+}
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: $font-family_2;
+  font-weight: 900;
+}
+
+.fa-facebook-square {
+  &:before {
+    content: "\f082";
+  }
+}
+.fa-google {
+  &:before {
+    content: "\f1a0";
+  }
+}
+.fa-instagram {
+  &:before {
+    content: "\f16d";
+  }
+}
+.fa-twitter-square {
+  &:before {
+    content: "\f081";
+  }
+}
+.fa-unlock-alt {
+  &:before {
+    content: "\f13e";
+  }
+}
+.fa-user {
+  &:before {
+    content: "\f007";
+  }
+}
+
+.Sign-Up {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  color: $color_2;
+  background: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  min-width: 275px;
+  grid-area: Sign-Up;
+  h1 {
+    font-size: 18pt;
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 10pt;
+    margin-bottom: 25px;
+  }
+  form {
+    margin-bottom: 15px;
+    input {
+      margin-bottom: 20px;
+      height: 40px;
+      width: 100%;
+      border: 0;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+      outline: none;
+    }
+  }
+
+  button.start {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: $color_7;
+    color: $color_3;
+  }
+  button.google {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    font-size: 10pt;
+    color: $color_2;
+  }
+  .sm-h2 {
+    font-size: 10pt !important;
+    font-weight: normal !important;
+    text-align: center;
+    color: $color_2;
+    a {
+      text-decoration: underline;
+      font-weight: bold;
+      color: #43be31;
+    }
+  }
+}
+.Quote {
+  position: relative;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  min-width: 275px;
+  grid-area: Quote;
+  background: white;
+}
+.signup-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  padding-top: 60px;
+  font-size: 10pt;
+  background: $color_7;
+  color: $color_3;
+  padding-left: 10%;
+}
+
+.signup-links {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  padding-top: 14px;
+}
+.sm-h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  padding-top: 6px;
+  font-size: 10pt;
+}
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 420px;
+  z-index: 9999;
+  img {
+    height: 100%;
+  }
+}
+.quote {
+  position: relative;
+  bottom: 160px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  color: $color_3;
+  text-align: center;
+  font-size: 10pt;
+  box-sizing: border-box;
+}
+span {
+  i {
+    font-size: 18pt;
+  }
+}
+
+.input {
+  position: relative;
+  i {
+    position: absolute;
+    left: 5px;
+    bottom: 15px;
+    color: $color_4;
+  }
+}
+.input {
+  font-size: 10pt;
+  padding-left: 40px;
+  display: block;
+  width: 80%;
+  border: none;
+
+  label {
+    color: $color_5;
+    font-size: 10pt;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 40px;
+    bottom: 15px;
+    transition: 0.2s ease all;
+  }
+  &:focus {
+    border-bottom: 2px solid #0097e6 !important;
+    transition: 0.2s all ease-in-out;
+    ~ {
+      i {
+        color: $color_6;
+        transition: 0.2s all ease-in-out;
+      }
+      label {
+        bottom: 40px;
+        font-size: 10pt;
+        color: $color_6;
+      }
+    }
+  }
+  &:valid {
+    ~ {
+      label {
+        font-size: 10pt;
+        color: $color_6;
+        color: $color_7;
+      }
+      i {
+        color: $color_7;
+      }
+    }
+    border-bottom: 2px solid #44bd32 !important;
+  }
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-template-areas: ". a a ." ". a a .";
+}
+.auth-grid-container {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "Sign-Up Quote";
+  height: 485px;
+  width: 50vw;
+  max-width: 745px;
+  min-width: 475px;
+}
+
+.link {
+  color: white;
+}

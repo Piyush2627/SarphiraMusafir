@@ -1,0 +1,308 @@
+$color_1: #fff;
+$color_2: #fb6400;
+$color_3: #fbd985;
+$color_4: #ffffffba;
+$color_5: #ff5e00;
+$font-family_1: "Poppins";
+$font-family_2: "Poppins";
+$background-color_1: #fff;
+$background-color_2: transparent;
+$background-color_3: #eaeaea;
+$background-color_4: #ff5e00;
+
+@font-face {
+  font-family: "tours-app";
+  src: url(https://ui-assets-gc.thrillophilia.com/packs/media/fonts/tours-app-e461d780.woff)
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+img {
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+  font-size: 1rem;
+  height: auto;
+}
+
+.event-section {
+  color: $color_1;
+}
+[type="button"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+.base-block-body {
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+[class^="tours-icon-"] {
+  font-family: $font-family_2 !important;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-right: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tours-icon-Down-Caret {
+  &:before {
+    font-size: 5px;
+    content: "\e940";
+    color: $color_2;
+    position: relative;
+    top: -3px;
+  }
+}
+
+.ReactCollapse--collapse {
+  transition: height 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.itinerary-day__image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 175px;
+  height: 130px;
+  border-radius: 8px;
+  background-color: $background-color_2;
+  padding: 0;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.itinerary-day__header-top-row {
+  display: flex;
+  padding: 15px 0;
+  position: relative;
+  align-items: center;
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: -20px;
+    left: 32px;
+    border-left: 1px solid #eaeaea;
+    z-index: -1;
+  }
+}
+.itinerary-day {
+  &:first-child {
+    .itinerary-day__header-top-row {
+      padding-top: 0;
+    }
+  }
+  .tours-icon-Down-Caret {
+    margin-left: 14px;
+    transition: 0.2s transform;
+  }
+  .text-on-image {
+    position: absolute;
+    color: $color_4;
+    font-size: 5rem;
+    top: calc(50% - 28.5px);
+    right: calc(50% - 14.375px);
+    z-index: 2;
+  }
+}
+.itinerary-day__header-bottom-row {
+  position: relative;
+  padding-left: 80px;
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: -20px;
+    left: 32px;
+    border-left: 1px solid #eaeaea;
+    z-index: -1;
+    bottom: -10px;
+  }
+}
+.itinerary-day__day-number {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  padding: 3px 10px;
+  background-color: $background-color_1;
+  white-space: nowrap;
+}
+.itinerary-day__day-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 16px;
+  color: $color_3;
+  cursor: pointer;
+}
+.itinerary-day__day-description {
+  color: $color_1;
+}
+
+.list-of-points {
+  padding-left: 40px;
+  list-style: disc;
+  li span {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 200;
+  }
+}
+
+.ql-align-justify {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.itinerary-day__images-row {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 24px;
+}
+.itinerary-day__image--overlay-image {
+  filter: blur(1px);
+  position: relative;
+}
+.itinerary-day__collapse-day-btn {
+  background-color: $background-color_2;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: $color_5;
+  font-weight: 600;
+}
+.itinerary-day__events {
+  margin: 40px;
+  margin-right: 0;
+  position: relative;
+  .event-section {
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 12px;
+    left: 13px;
+    border-left: 1px solid #eaeaea;
+  }
+}
+.itinerary-day--expanded {
+  .tours-icon-Down-Caret {
+    transform: rotate(180deg);
+  }
+}
+.itinerary-event {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+.ReactCollapse {
+  &--collapsed {
+    height: 0;
+    overflow: hidden;
+  }
+
+  &--expanded {
+    height: auto;
+    overflow: initial;
+  }
+}
+.itinerary-event__heading {
+  color: $color_3;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  font-family: "Poppins";
+  &:before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: $background-color_4;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 8px;
+    left: -22px;
+    box-sizing: content-box;
+  }
+}
+.itinerary-event__additional-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-style: italic;
+}
+@media (min-width: 1024px) {
+  .itinerary-day__header-top-row {
+    &:before {
+      left: 40px;
+    }
+  }
+  .itinerary-day__header-bottom-row {
+    &:before {
+      left: 40px;
+    }
+  }
+  .itinerary-day__day-number {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+  .itinerary-day__day-title {
+    font-size: 18px;
+  }
+  .itinerary-day__events {
+    .event-section {
+      margin-left: 30px;
+      padding-left: 30px;
+    }
+    .event-section__connectors {
+      &:before {
+        left: 15px;
+        transform: rotate(-36deg);
+      }
+      &:after {
+        left: 15px;
+        transform: rotate(36deg);
+      }
+    }
+    &:before {
+      bottom: 10px;
+      left: 30px;
+    }
+  }
+  .itinerary-event__heading {
+    &:before {
+      left: -35px;
+    }
+  }
+}
+@media (max-width: 1023px) {
+  .itinerary-day__header-bottom-row {
+    padding-left: 10px;
+  }
+  .itinerary-day__images-row {
+    overflow: auto;
+  }
+}
+@media (max-width: 375px) {
+  .itinerary-day__header-bottom-row {
+    padding-left: 5px;
+  }
+}

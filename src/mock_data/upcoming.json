@@ -1,0 +1,86 @@
+[
+  {
+    "strip": 1,
+    "photos": [
+      {
+        "name": "Kyoto",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-kyoto.jpeg"
+      },
+      {
+        "name": "Halstatt",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-austria.jpeg"
+      },
+      {
+        "name": "Peru",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-peru.jpeg"
+      },
+      {
+        "name": "Rio",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-rio.jpeg"
+      }
+    ]
+  },
+  {
+    "strip": 2,
+    "photos": [
+      {
+        "name": "Italy",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-italy.jpeg"
+      },
+      {
+        "name": "Osaka",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-osaka.jpeg"
+      },
+      {
+        "name": "Bali",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-bali.jpeg"
+      },
+      {
+        "name": "Paris",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-paris2.jpg"
+      }
+    ]
+  },
+  {
+    "strip": 3,
+    "photos": [
+      {
+        "name": "Cusco",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-cusco.jpeg"
+      },
+      {
+        "name": "Rome",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-rome.jpeg"
+      },
+      {
+        "name": "Paris",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-paris.jpeg"
+      },
+      {
+        "name": "Bali",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-bali2.jpeg"
+      }
+    ]
+  },
+  {
+    "strip": 4,
+    "photos": [
+      {
+        "name": "Milan",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-milan.jpeg"
+      },
+      {
+        "name": "Budapest",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-budapest.jpg"
+      },
+      {
+        "name": "Vienna",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-vienna.jpg"
+      },
+      {
+        "name": "Mexico",
+        "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/gg-mexico.jpg"
+      }
+    ]
+  }
+]

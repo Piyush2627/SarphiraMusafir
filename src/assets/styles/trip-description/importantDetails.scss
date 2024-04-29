@@ -1,0 +1,126 @@
+$color_1: #505050;
+$color_2: #ff5300;
+$color_3: #ff5e00;
+$font-family_1: inherit;
+$font-family_2: "tours-app";
+
+@font-face {
+  font-family: "tours-app";
+  src: url(https://ui-assets-gc.thrillophilia.com/packs/media/fonts/tours-app-e461d780.woff)
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+[type="button"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+[class*="tours-icon-"] {
+  font-family: $font-family_2 !important;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-right: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tours-icon-information {
+  &:before {
+    content: "\e956";
+    color: $color_2;
+  }
+}
+
+.link-btn {
+  background: transparent;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  color: $color_3;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.product-overview__list-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #fbd985;
+  margin-bottom: 18px;
+}
+
+.product-overview__list-item {
+  display: flex;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.product-overview__list-item-icon {
+  margin-right: 10px !important;
+  margin-top: 4px;
+  display: inline-block !important;
+}
+
+.product-overview__list {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+  font-size: 14px;
+}
+
+.read-more-content {
+  overflow: hidden;
+  transition: 0.2s max-height;
+}
+
+.read-more-content--expanded {
+  max-height: unset !important;
+}
+
+.read-more-btn {
+  display: block;
+  margin-left: auto;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  margin-top: 30px;
+  &:before {
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: -80px;
+    background: linear-gradient(to bottom, rgb(92 92 92 / 0%), rgb(8 25 32));
+  }
+}
+
+.read-more-btn--expanded:before {
+  display: none;
+}
+
+.product-overview__list-wrap {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 479px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
