@@ -44,9 +44,7 @@ function EventCategory() {
                     to={"/event/details/new"}
                     className="media-box media-box-reveal"
                     data-anima="scale"
-                    data-trigger="hover"
-                    target="__blank"
-                  >
+                    data-trigger="hover">
                     <img
                       className="anima"
                       src="https://i.ibb.co/wrsHWFc/IMG-20240309-181904389.png"

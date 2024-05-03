@@ -26,9 +26,7 @@ function LandingSelectTrip() {
       <div className="landing-grid-section2">
         <Link
           to="/trip/category/weekend-gateways"
-          style={{ textDecoration: "none", color: "inherit" }}
-          target="_blank"
-        >
+          style={{ textDecoration: "none", color: "inherit" }}>
           <div className="selecttrip-1">
             <div>
               <img
@@ -42,9 +40,7 @@ function LandingSelectTrip() {
         </Link>
         <Link
           to="/trip/category/backpacking-trips"
-          style={{ textDecoration: "none", color: "inherit" }}
-          target="_blank"
-        >
+          style={{ textDecoration: "none", color: "inherit" }}>
           <div className="selecttrip-2">
             <div>
               <img
@@ -58,9 +54,7 @@ function LandingSelectTrip() {
         </Link>
         <Link
           to="/trip/category/religious-places"
-          style={{ textDecoration: "none", color: "inherit" }}
-          target="_blank"
-        >
+          style={{ textDecoration: "none", color: "inherit" }}>
           <div className="selecttrip-3 ">
             <div>
               <img
