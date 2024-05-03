@@ -1,14 +1,13 @@
 import "./App.scss";
-import router from "./core/RouterProviderData";
-import { RouterProvider } from "react-router-dom";
 import { Suspense } from "react";
 import Loader from "./components/common/Loader";
+import RouterProviderData from "./core/RouterProviderData";
 
 function App() {
   return (
     <>
       <Suspense fallback={<Loader />}>
-        <RouterProvider router={router} />
+        <RouterProviderData />
       </Suspense>
     </>
   );

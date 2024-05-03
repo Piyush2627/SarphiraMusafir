@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import { event } from "../mock_data/event-data";
 import Loader from "../components/common/Loader";
 const RootLayout = lazy(() => import("./RootLayout"));
@@ -15,7 +15,7 @@ const AdminLayout = lazy(
   () => import("../pages/admin/AdminLayout/AdminLayout")
 );
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <RootLayout />,
@@ -66,5 +66,12 @@ const router = createBrowserRouter([
     element: <div>404</div>,
   },
 ]);
+function RouterProviderData() {
+  return (
+    <>
+      return <RouterProvider router={router} />;
+    </>
+  );
+}
 
-export default router;
+export default RouterProviderData;
