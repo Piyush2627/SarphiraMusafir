@@ -1,52 +1,45 @@
 export const event = {
-  name: "Discover Thailand | All-Inclusive Bangkok & Phuket Tour",
-  days: 8,
-  night: 7,
+  name: "Monsoon’s Dark Forest with River crossings at Aadrai Jungle Trek",
+  days: 1,
+  night: 1,
   price: 28900,
   discount: 28,
   highlightDestination: [
     {
-      name: "Bangkok",
-      days: 3,
-    },
-    {
-      name: "Phuket",
-      days: 4,
+      name: "Aadrai Jungle",
+      days: 1,
     },
   ],
   transferIncluded: true,
+
   stayIncluded: true,
   mealsIncluded: true,
   sightseeingIncluded: true,
   overview: {
     about:
-      "Experience the vibrant culture and stunning landscapes of Thailand with our meticulously crafted tour package. From the bustling streets of Bangkok to the pristine beaches of Phuket, this journey promises an unforgettable adventure.",
+      "The Aadrai jungle trek is the best way to explore Sahyadri's most enchanting and unexplored jungles! This Aadrai trek from Mumbai will take you directly to the heart of nature full of lush green forest, dense vegetation, beautiful peaks, enthralling waterfalls and streams, valleys, caves, and incredible trails!“Lost in the Dense Woods” is an apt word for the Aadrai trek. Walking deep inside the hidden jungles of Malshej Ghat, where sun rays touch the ground is rare. The Aadrai trail passes through various streams and passing waterfalls, including a mega–1,200–foot fall. Explore this unexplored Aadrai forest, full of flora and fauna with flowers blooming all over. Unknown to the common folk, this Aadrai trail was found by a local villager, who was lost in the forest while hunting.So if you are looking for monsoon treks in Maharashtra, the Aadrai trek is the one you should go for. The Aadrai jungle trek located in Junnar, Pune will help you forget your worries, lose yourself, and reconnect with nature. Explore what nature has to offer, by taking the Aadrai jungle trek, where sun rays rarely touch the ground.Apart from the enchanting trek and trail, the Aadrai offers much more such as the Kalu waterfall, Nageshwar temple, and many ancient caves.The walk amidst the dense trails of Malshej Ghat passing through various streams and waterfalls, flora, and fauna offers you a much-needed respite from the city life. Every breath of air at the Aadrai feels refreshing.",
     quickInfo: {
-      route: "Bangkok - Phuket",
-      duration: "7 Days / 6 Nights",
-      startingPoint: "Bangkok",
-      endPoint: "Phuket",
+      route: "Pune - Aadrai Jungle",
+      duration: "1 Days / 1 Nights",
+      startingPoint: "Pune",
+      endPoint: "Aadrai Jungle",
     },
     otherInfo: [
       {
         title: "Inclusions",
         points: [
-          "Airport transfers to and from designated airports",
           "Accommodation in comfortable hotels or resorts",
           "Daily breakfast and select meals as per itinerary",
           "Transportation for sightseeing tours and transfers",
           "Professional guide services for sightseeing",
-          "Entrance fees to attractions mentioned in the itinerary",
         ],
       },
       {
         title: "Things to Do",
         points: [
-          "Explore the Grand Palace and Wat Phra Kaew in Bangkok",
-          "Enjoy a traditional Thai dinner cruise along the Chao Phraya River",
-          "Relax on the stunning beaches of Phuket",
-          "Visit the Phi Phi Islands for snorkeling and swimming",
-          "Experience the vibrant nightlife of Patong Beach",
+          "Explore the Grand Palace and Wat Phra Kaew in Aadrai Jungle",
+          "Relax on the stunning beaches of  Aadrai Jungle ",
+          "Experience the vibrant nightlife of Aadrai Jungle",
         ],
       },
     ],
