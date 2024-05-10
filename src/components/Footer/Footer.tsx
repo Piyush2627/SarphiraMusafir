@@ -60,17 +60,25 @@ function Footer() {
           <div className="footer-col div4">
             <h4>follow us</h4>
             <div className="social-links">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/profile.php?id=61550828575415&mibextid=ZbWKwL"
+                target="_blank">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#">
+              <a
+                href="https://x.com/MusafirFamily?t=Trf4xzA5JyZypRPwuYUC-Q&s=09"
+                target="_blank">
                 <i className="fab fa-twitter" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/sarphiramusafir.india?igsh=MXV4MzNuaXF3Y2FqNQ=="
+                target="_blank">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="#">
-                <i className="fab fa-linkedin-in" />
+              <a
+                href="https://youtube.com/@SarphiraMusafirIndia?si=L96dz2V7wHyhFlgK"
+                target="_blank">
+                <i className="fab fa-youtube" />
               </a>
             </div>
           </div>
