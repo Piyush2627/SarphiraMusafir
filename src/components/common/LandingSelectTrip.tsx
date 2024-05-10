@@ -11,7 +11,7 @@ function LandingSelectTrip() {
           <div className="vision-container">
             <p>Vision</p>
             <div className="vision">
-              To redefine travel with the wild spirit of the "Crazy Traveler"
+              To redefine travel with the wild spirit of the "Crazy Traveler".
             </div>
           </div>
           <div className="mission-container">

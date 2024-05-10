@@ -24,8 +24,7 @@ function NavgationBar() {
       className={`header ${header}`}
       style={{
         backgroundColor: checked ? "#0b1d26" : "",
-      }}
-    >
+      }}>
       <nav>
         <div className="navigation-logo-container">
           <div>
@@ -39,7 +38,18 @@ function NavgationBar() {
               />
             </Link>
           </div>
-          Sarphira Musafir
+          <div>
+            <div
+              className="
+            ">
+              Sarphira Musafir
+            </div>
+            <div>
+              <p className="navigarion-slogon">
+                Saath Jaayenge Khoob Machayenge
+              </p>
+            </div>
+          </div>
         </div>
         <input
           type="checkbox"

@@ -69,7 +69,7 @@ const router = createHashRouter([
 function RouterProviderData() {
   return (
     <>
-      return <RouterProvider router={router} />;
+      <RouterProvider router={router} />;
     </>
   );
 }

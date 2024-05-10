@@ -10,6 +10,18 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.landing-page-scroll-icon {
+  color: white;
+  position: absolute;
+  right: 24px;
+  bottom: 56px;
+  z-index: 10;
+}
+.landing-page-scroll-icon svg {
+  height: 40px;
+  width: 40px;
+  color: white;
+}
 
 .reviews {
   display: flex;
@@ -50,8 +62,9 @@
 }
 .productbanner-container {
   position: relative;
-  width: 100vw;
+  width: 90vw;
   height: 46rem;
+  margin: auto;
 }
 
 .heroheading-lineone-container {
@@ -155,7 +168,7 @@
 /* For desktop computers */
 @media (max-width: 769px) {
   .feel-the-experience {
-    margin-top: 24rem;
+    margin-top: 6rem;
   }
 }
 
@@ -196,6 +209,6 @@ $animationSpeed: 20s;
   .slide-track {
     animation: scroll $animationSpeed linear infinite;
     display: flex;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 }
