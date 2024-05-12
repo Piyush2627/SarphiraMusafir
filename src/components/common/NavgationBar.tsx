@@ -40,9 +40,8 @@ function NavgationBar() {
           </div>
           <div>
             <div
-              className="
-            ">
-              Sarphira Musafir
+              className="Sarphira-Nav-Name">
+          Sarphira Musafir
             </div>
             <div>
               <p className="navigarion-slogon">

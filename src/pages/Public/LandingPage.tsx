@@ -14,7 +14,7 @@ function LandingPage() {
           src="https://i.ibb.co/9WzRWqN/IMG-9130.jpg"
           className="about-hero-section-image"
         />
-        <div className="about-hero-text">
+        {/* <div className="about-hero-text">
           <div className="heroheading-lineone-container">
             <div className="dashline"> </div>
             <div className="heading">Sarphira musafir</div>
@@ -22,12 +22,12 @@ function LandingPage() {
           <h1 className="heroheading-main-heading">
             Saath Jaayenge Khoob Machayenge
           </h1>
-        </div>
+        </div> */}
         <div className="landing-page-scroll-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
               fill="#ffffff"
-              d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"
+              d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"
             />
           </svg>
         </div>
@@ -45,7 +45,7 @@ function LandingPage() {
           <Productbanner data={products} />
         </div>
       </section>
-      <h2 className="section-headline">Testimonials</h2>
+      <h2 className="section-headline">From our Travellers</h2>
       <section className="reviews">
         <div className="slider">
           <div className="slide-track">

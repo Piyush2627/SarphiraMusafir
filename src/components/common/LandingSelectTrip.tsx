@@ -4,7 +4,7 @@ function LandingSelectTrip() {
   return (
     <div className="landing-grid">
       <div className="landing-grid-section1">
-        <h1>Find The Perfect Escape </h1>
+        <h1>Find the Perfect Escape </h1>
         <div className="dash-line"></div>
         <p>Discover your ideal experience</p>
         <div className="agenda-container">
